@@ -1,0 +1,1057 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "BMT-LAP-71",
+    "children" : [ {
+      "name" : "20556@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "43334325a349010d",
+        "parentUid" : "3b6adae15b0562748af555052597785c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624387567386,
+          "stop" : 1624387612461,
+          "duration" : 45075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b6adae15b0562748af555052597785c"
+    }, {
+      "name" : "13232@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "2c69a6abe3a21a4d",
+        "parentUid" : "498d17dfe53d9930dda69b478898289a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624392880131,
+          "stop" : 1624392923617,
+          "duration" : 43486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "498d17dfe53d9930dda69b478898289a"
+    }, {
+      "name" : "10224@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "3677d40f9009e01e",
+        "parentUid" : "40d1b363bcc38a76676a36c81e0def49",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624393093104,
+          "stop" : 1624393140260,
+          "duration" : 47156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "40d1b363bcc38a76676a36c81e0def49"
+    }, {
+      "name" : "20108@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "1ed1575b55504ade",
+        "parentUid" : "bd5690ba5e547006fdb9923ee1512a97",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624386810602,
+          "stop" : 1624386858825,
+          "duration" : 48223
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "dd7e10e8b69b7407",
+        "parentUid" : "bd5690ba5e547006fdb9923ee1512a97",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624386859036,
+          "stop" : 1624386878459,
+          "duration" : 19423
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd5690ba5e547006fdb9923ee1512a97"
+    }, {
+      "name" : "1404@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "acdab9de2297a606",
+        "parentUid" : "ba3c8da8c327f28e163e6bcc9b2115e6",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1624388096805,
+          "stop" : 1624388098243,
+          "duration" : 1438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "73eadc6287f72639",
+        "parentUid" : "ba3c8da8c327f28e163e6bcc9b2115e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624388062967,
+          "stop" : 1624388096661,
+          "duration" : 33694
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba3c8da8c327f28e163e6bcc9b2115e6"
+    }, {
+      "name" : "16200@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "bf211b6e79d82ace",
+        "parentUid" : "078f2e5232831e308fc468a5c770edd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624390051839,
+          "stop" : 1624390082730,
+          "duration" : 30891
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "f33c2ae89738a1c2",
+        "parentUid" : "078f2e5232831e308fc468a5c770edd2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624390082946,
+          "stop" : 1624390114393,
+          "duration" : 31447
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "078f2e5232831e308fc468a5c770edd2"
+    }, {
+      "name" : "18604@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "a244b8337bafb4fd",
+        "parentUid" : "a07516b36bd2fdffaa6441858f7e1de9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624388493796,
+          "stop" : 1624388518251,
+          "duration" : 24455
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "93752dd3d3543618",
+        "parentUid" : "a07516b36bd2fdffaa6441858f7e1de9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624388518402,
+          "stop" : 1624388536412,
+          "duration" : 18010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a07516b36bd2fdffaa6441858f7e1de9"
+    }, {
+      "name" : "8744@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "3d24920053fdd7b7",
+        "parentUid" : "a6b3d7b612028c0c899ec4387dacccdc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624298709527,
+          "stop" : 1624298757616,
+          "duration" : 48089
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6b3d7b612028c0c899ec4387dacccdc"
+    }, {
+      "name" : "348@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "600e50756ca7bbdc",
+        "parentUid" : "f878a597277ecdb2f06eef9a46155be6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624298491113,
+          "stop" : 1624298524731,
+          "duration" : 33618
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f878a597277ecdb2f06eef9a46155be6"
+    }, {
+      "name" : "17116@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "5e47b519e2497aef",
+        "parentUid" : "e58966e90a73736c7fb01550d5f2126c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624390672275,
+          "stop" : 1624390711427,
+          "duration" : 39152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e58966e90a73736c7fb01550d5f2126c"
+    }, {
+      "name" : "20136@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "fbeb3c9542a44ff6",
+        "parentUid" : "a6c0c53d4224095774acb7fd8d74a0c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624389906950,
+          "stop" : 1624389934464,
+          "duration" : 27514
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "7fcbc151318e5bef",
+        "parentUid" : "a6c0c53d4224095774acb7fd8d74a0c1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624389934688,
+          "stop" : 1624389955343,
+          "duration" : 20655
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6c0c53d4224095774acb7fd8d74a0c1"
+    }, {
+      "name" : "17716@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "16beafbcde99c02",
+        "parentUid" : "552f1902d2e87a8a4a968a87ba536965",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624387111487,
+          "stop" : 1624387161787,
+          "duration" : 50300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "552f1902d2e87a8a4a968a87ba536965"
+    }, {
+      "name" : "4116@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "8036b471425e02f1",
+        "parentUid" : "d3f80f96d3a979c9795a9804eeafd042",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300359418,
+          "stop" : 1624300380360,
+          "duration" : 20942
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d3f80f96d3a979c9795a9804eeafd042"
+    }, {
+      "name" : "15932@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "e16491701f4e0fe4",
+        "parentUid" : "15007cd71f670552becfb2c97b7dfb77",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624389534247,
+          "stop" : 1624389555260,
+          "duration" : 21013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "4399307fdb20d2e8",
+        "parentUid" : "15007cd71f670552becfb2c97b7dfb77",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624389489914,
+          "stop" : 1624389533948,
+          "duration" : 44034
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15007cd71f670552becfb2c97b7dfb77"
+    }, {
+      "name" : "15756@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "e2b03311758e7c7e",
+        "parentUid" : "15fabe71ce79e68e171f6faeeb1c9e29",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624391808771,
+          "stop" : 1624391838166,
+          "duration" : 29395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15fabe71ce79e68e171f6faeeb1c9e29"
+    }, {
+      "name" : "13424@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "da3c6e64af83fa40",
+        "parentUid" : "36d9924ee233802704f8946867db7b65",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300094066,
+          "stop" : 1624300120203,
+          "duration" : 26137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "36d9924ee233802704f8946867db7b65"
+    }, {
+      "name" : "13908@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "d9215485b22c81cd",
+        "parentUid" : "92e94fe59b288ade0879fb81df4f96b0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300478825,
+          "stop" : 1624300483905,
+          "duration" : 5080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "92e94fe59b288ade0879fb81df4f96b0"
+    }, {
+      "name" : "6164@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "8c8a0a64d1288c0e",
+        "parentUid" : "130c0bb9a2fbed7217472a631de245f3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300425874,
+          "stop" : 1624300447739,
+          "duration" : 21865
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "130c0bb9a2fbed7217472a631de245f3"
+    }, {
+      "name" : "20272@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "357f247f2561bf7a",
+        "parentUid" : "c918a3a764937b79d089265849d77227",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300203727,
+          "stop" : 1624300246936,
+          "duration" : 43209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c918a3a764937b79d089265849d77227"
+    }, {
+      "name" : "16336@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "88ccec2f5446ecb4",
+        "parentUid" : "a7961a0ce98cf3fe1c243bdc5708c047",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300053541,
+          "stop" : 1624300095746,
+          "duration" : 42205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7961a0ce98cf3fe1c243bdc5708c047"
+    }, {
+      "name" : "8960@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "a7feac5f980c3407",
+        "parentUid" : "0d847cdbe4a53b78f1d53f3e56185d61",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624299619472,
+          "stop" : 1624299657845,
+          "duration" : 38373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0d847cdbe4a53b78f1d53f3e56185d61"
+    }, {
+      "name" : "8168@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "6a0b179c9ad6bdba",
+        "parentUid" : "0e49e345673cc9fa764e3274b24bb06c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624393667067,
+          "stop" : 1624393697599,
+          "duration" : 30532
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "637f2cea6f6ba60d",
+        "parentUid" : "0e49e345673cc9fa764e3274b24bb06c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624393697880,
+          "stop" : 1624393746210,
+          "duration" : 48330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0e49e345673cc9fa764e3274b24bb06c"
+    }, {
+      "name" : "2104@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "c87653a799714b8a",
+        "parentUid" : "7ee5289d2e82ecbd2397f20b53dadf1e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624297989599,
+          "stop" : 1624298041927,
+          "duration" : 52328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "85496f81f583853e",
+        "parentUid" : "7ee5289d2e82ecbd2397f20b53dadf1e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624299656075,
+          "stop" : 1624299707025,
+          "duration" : 50950
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ee5289d2e82ecbd2397f20b53dadf1e"
+    }, {
+      "name" : "11936@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "e8a2bb9ba8ff903f",
+        "parentUid" : "339e1c02bc7879f0398d07258bd387b1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300450665,
+          "stop" : 1624300463775,
+          "duration" : 13110
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "339e1c02bc7879f0398d07258bd387b1"
+    }, {
+      "name" : "2072@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "a05912993960fa13",
+        "parentUid" : "0c3b4ff917f92e7d09e7733883ccf04c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624299883619,
+          "stop" : 1624299905636,
+          "duration" : 22017
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c3b4ff917f92e7d09e7733883ccf04c"
+    }, {
+      "name" : "18300@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "8c37ca1c23b1f557",
+        "parentUid" : "f1628088282a42e6b2286eed501a6892",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624298552331,
+          "stop" : 1624298585474,
+          "duration" : 33143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1628088282a42e6b2286eed501a6892"
+    }, {
+      "name" : "11980@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "db228cd0f661af71",
+        "parentUid" : "51a113463c9e59db25dba7b34eeea0cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624393818462,
+          "stop" : 1624393848198,
+          "duration" : 29736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "7bdb9cc09e1f5c2e",
+        "parentUid" : "51a113463c9e59db25dba7b34eeea0cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624393848306,
+          "stop" : 1624393894201,
+          "duration" : 45895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "51a113463c9e59db25dba7b34eeea0cf"
+    }, {
+      "name" : "4156@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "42b4b9009d38797f",
+        "parentUid" : "e909052d63fd57e343df3062a2ad30ef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624297738700,
+          "stop" : 1624297771694,
+          "duration" : 32994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e909052d63fd57e343df3062a2ad30ef"
+    }, {
+      "name" : "6960@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "cfc81bc2d5dfe775",
+        "parentUid" : "661a161d0c21861d6699182991c06190",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624393307571,
+          "stop" : 1624393355390,
+          "duration" : 47819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "661a161d0c21861d6699182991c06190"
+    }, {
+      "name" : "15652@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "28e9fddad95bb884",
+        "parentUid" : "4ec9fd8b7e7d8fe2f06c9b384d1e4346",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300119308,
+          "stop" : 1624300158117,
+          "duration" : 38809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ec9fd8b7e7d8fe2f06c9b384d1e4346"
+    }, {
+      "name" : "14672@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "fee91a3d7c1f8c15",
+        "parentUid" : "e9d46d308759f4aaf1034df8dd642318",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624388314993,
+          "stop" : 1624388330675,
+          "duration" : 15682
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "8fef5e04cf85d22d",
+        "parentUid" : "e9d46d308759f4aaf1034df8dd642318",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624388275948,
+          "stop" : 1624388314831,
+          "duration" : 38883
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9d46d308759f4aaf1034df8dd642318"
+    }, {
+      "name" : "3480@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "1ab0d1286bd0de13",
+        "parentUid" : "b68fb5a677ff1cf6483d89bc2ac141af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624294750940,
+          "stop" : 1624294757543,
+          "duration" : 6603
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b68fb5a677ff1cf6483d89bc2ac141af"
+    }, {
+      "name" : "18536@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "107710d4cadaf248",
+        "parentUid" : "b7bc706c4587a5c562cedeed872fd580",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300159295,
+          "stop" : 1624300173455,
+          "duration" : 14160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b7bc706c4587a5c562cedeed872fd580"
+    }, {
+      "name" : "6496@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "bbf777daf2d3eeab",
+        "parentUid" : "066c0a6236cfcc710458f0086327534f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624294219679,
+          "stop" : 1624294264961,
+          "duration" : 45282
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "066c0a6236cfcc710458f0086327534f"
+    }, {
+      "name" : "6376@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "800ad8d4616c1a16",
+        "parentUid" : "ce9f214793d2c0921053730ec2ee3b61",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300010800,
+          "stop" : 1624300033780,
+          "duration" : 22980
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ce9f214793d2c0921053730ec2ee3b61"
+    }, {
+      "name" : "13656@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "c658c8be6455f484",
+        "parentUid" : "49a568cede15d8489f1e39420569129e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624299252669,
+          "stop" : 1624299305881,
+          "duration" : 53212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "49a568cede15d8489f1e39420569129e"
+    }, {
+      "name" : "14396@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "a6524b4a5740a7d",
+        "parentUid" : "d058d6ec13ef45195a313c98ebf7a384",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300379157,
+          "stop" : 1624300418970,
+          "duration" : 39813
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d058d6ec13ef45195a313c98ebf7a384"
+    }, {
+      "name" : "15160@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "d0966ac3b0d7b288",
+        "parentUid" : "d8e4362f389417a30bc4fc6a24728700",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624284056348,
+          "stop" : 1624284110871,
+          "duration" : 54523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d8e4362f389417a30bc4fc6a24728700"
+    }, {
+      "name" : "13432@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "c3404847e131fe2d",
+        "parentUid" : "77d16ce5e3252b5a0c3687ba38780563",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624297273883,
+          "stop" : 1624297323579,
+          "duration" : 49696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77d16ce5e3252b5a0c3687ba38780563"
+    }, {
+      "name" : "16212@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "8066faafe716cf2f",
+        "parentUid" : "ac409171704fb6ca8a12b2a4e2913328",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300310034,
+          "stop" : 1624300334278,
+          "duration" : 24244
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac409171704fb6ca8a12b2a4e2913328"
+    }, {
+      "name" : "13620@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "5a1367c974e3425f",
+        "parentUid" : "1099b5c0c637862dc41cb813aea0a3c9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624296942080,
+          "stop" : 1624296990455,
+          "duration" : 48375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1099b5c0c637862dc41cb813aea0a3c9"
+    }, {
+      "name" : "17668@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "3183309f5cdd75ae",
+        "parentUid" : "8646164187673777bdd7ad7bf36c1fed",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624390526776,
+          "stop" : 1624390561482,
+          "duration" : 34706
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8646164187673777bdd7ad7bf36c1fed"
+    }, {
+      "name" : "7640@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "7dec857038b89821",
+        "parentUid" : "71c9e46a63c87ea7fb84c7e2ba7c5304",
+        "status" : "broken",
+        "time" : {
+          "start" : 1624283900925,
+          "stop" : 1624283954566,
+          "duration" : 53641
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71c9e46a63c87ea7fb84c7e2ba7c5304"
+    }, {
+      "name" : "21416@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "a3dab1437cc869e9",
+        "parentUid" : "52fd7e588ad158a43c7563ca02979c4c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624391346605,
+          "stop" : 1624391373327,
+          "duration" : 26722
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "52fd7e588ad158a43c7563ca02979c4c"
+    }, {
+      "name" : "3692@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "ec76f5caa326224a",
+        "parentUid" : "91d890bdea7886b0bcf0f9143c50b1c7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624299948656,
+          "stop" : 1624299991655,
+          "duration" : 42999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "91d890bdea7886b0bcf0f9143c50b1c7"
+    }, {
+      "name" : "6180@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "ac4f33f40748a015",
+        "parentUid" : "85ba1d3230294e4a15d6cfc0c4cbde37",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624294608288,
+          "stop" : 1624294634431,
+          "duration" : 26143
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "85ba1d3230294e4a15d6cfc0c4cbde37"
+    }, {
+      "name" : "20280@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "2e53beda758cc795",
+        "parentUid" : "f62bd6765f3de90194f83b8bbc4cb734",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624299903077,
+          "stop" : 1624299931264,
+          "duration" : 28187
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f62bd6765f3de90194f83b8bbc4cb734"
+    }, {
+      "name" : "17140@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "d0067edb397c024e",
+        "parentUid" : "b03b26e6d2fb5f123a3daf7665b28d4f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624294400540,
+          "stop" : 1624294415369,
+          "duration" : 14829
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b03b26e6d2fb5f123a3daf7665b28d4f"
+    }, {
+      "name" : "19772@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "786f56a6997b4426",
+        "parentUid" : "f9216af6a035019c6cf068476b17c256",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624296876834,
+          "stop" : 1624296902699,
+          "duration" : 25865
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f9216af6a035019c6cf068476b17c256"
+    }, {
+      "name" : "20596@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "37e08be5d4f0dd88",
+        "parentUid" : "decf822aa7c793b6610579d7eb7c5323",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624393235081,
+          "stop" : 1624393284126,
+          "duration" : 49045
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "decf822aa7c793b6610579d7eb7c5323"
+    }, {
+      "name" : "18228@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "c1bdf58c32ade3f8",
+        "parentUid" : "6dba8b00ce4157b91b3e37842daa24d0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624391704965,
+          "stop" : 1624391733726,
+          "duration" : 28761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6dba8b00ce4157b91b3e37842daa24d0"
+    }, {
+      "name" : "12184@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "3126e9d1d8e62ca",
+        "parentUid" : "38ed3b0d1f8caeee85bb2d3be703243b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624392368831,
+          "stop" : 1624392399716,
+          "duration" : 30885
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "38ed3b0d1f8caeee85bb2d3be703243b"
+    }, {
+      "name" : "21488@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "93a1f11c913df526",
+        "parentUid" : "bc9175abd0d03fc8b050b96d2fae31f8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624387738692,
+          "stop" : 1624387770027,
+          "duration" : 31335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc9175abd0d03fc8b050b96d2fae31f8"
+    }, {
+      "name" : "11120@BMT-LAP-71.main(1)",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "e76f3d76ef553478",
+        "parentUid" : "36f33e1da9dcf9e6d61c62773acb9ea7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300286943,
+          "stop" : 1624300295390,
+          "duration" : 8447
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "36f33e1da9dcf9e6d61c62773acb9ea7"
+    } ],
+    "uid" : "23a9dcf10efc74be176d74fc39ca2c84"
+  } ],
+  "name" : "timeline"
+}

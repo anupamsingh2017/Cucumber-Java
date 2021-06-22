@@ -1,0 +1,31 @@
+[ {
+  "uid" : "d9215485b22c81cd",
+  "name" : "As a new user I should be able to create a new account, logout from app then login again",
+  "time" : {
+    "start" : 1624300478825,
+    "stop" : 1624300483905,
+    "duration" : 5080
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "db228cd0f661af71",
+  "name" : "As a new user I should be able to create a new account, logout from app then login again",
+  "time" : {
+    "start" : 1624393818462,
+    "stop" : 1624393848198,
+    "duration" : 29736
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bdb9cc09e1f5c2e",
+  "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+  "time" : {
+    "start" : 1624393848306,
+    "stop" : 1624393894201,
+    "duration" : 45895
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,653 @@
+{
+  "uid" : "ec76f5caa326224a",
+  "name" : "As a new user I should be able to create a new account, logout from app then login again",
+  "fullName" : "As a new user I should be able to create a new account and carry out shopping activity: As a new user I should be able to create a new account, logout from app then login again",
+  "historyId" : "d9d64644ef380b1a3adc1b0b633ca152",
+  "time" : {
+    "start" : 1624299948656,
+    "stop" : 1624299991655,
+    "duration" : 42999
+  },
+  "status" : "failed",
+  "statusMessage" : "expected [true] but found [false]",
+  "statusTrace" : "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat pageObjects.CreateAccountPage.verifyCreateAnAccountPage(CreateAccountPage.java:66)\r\n\tat stepDefinitions.CreateAccountSteps.i_should_see_create_an_account_form_page(CreateAccountSteps.java:60)\r\n\tat ✽.I should see Create an Account form page(file:src/test/resources/features/CreateAccount.feature:11)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "AppHooks.intialize()",
+    "time" : {
+      "start" : 1624299948659,
+      "stop" : 1624299948666,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.launchBrowser()",
+    "time" : {
+      "start" : 1624299948667,
+      "stop" : 1624299950881,
+      "duration" : 2214
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected [true] but found [false]",
+    "statusTrace" : "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat pageObjects.CreateAccountPage.verifyCreateAnAccountPage(CreateAccountPage.java:66)\r\n\tat stepDefinitions.CreateAccountSteps.i_should_see_create_an_account_form_page(CreateAccountSteps.java:60)\r\n\tat ✽.I should see Create an Account form page(file:src/test/resources/features/CreateAccount.feature:11)\r\n",
+    "steps" : [ {
+      "name" : "Given  I go to Sign In page",
+      "time" : {
+        "start" : 1624299950884,
+        "stop" : 1624299966567,
+        "duration" : 15683
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I click on Sign In button and wait for Authentication page to load",
+      "time" : {
+        "start" : 1624299966571,
+        "stop" : 1624299981018,
+        "duration" : 14447
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I should see Authentication Page",
+      "time" : {
+        "start" : 1624299981020,
+        "stop" : 1624299981081,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I should see Create an Account segment",
+      "time" : {
+        "start" : 1624299981082,
+        "stop" : 1624299981133,
+        "duration" : 51
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I enter my email address",
+      "time" : {
+        "start" : 1624299981134,
+        "stop" : 1624299981326,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I click on Create an Account button",
+      "time" : {
+        "start" : 1624299981328,
+        "stop" : 1624299981402,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I should see Create an Account form page",
+      "time" : {
+        "start" : 1624299981404,
+        "stop" : 1624299991473,
+        "duration" : 10069
+      },
+      "status" : "failed",
+      "statusMessage" : "expected [true] but found [false]",
+      "statusTrace" : "java.lang.AssertionError: expected [true] but found [false]\r\n\tat org.testng.Assert.fail(Assert.java:96)\r\n\tat org.testng.Assert.failNotEquals(Assert.java:776)\r\n\tat org.testng.Assert.assertTrue(Assert.java:44)\r\n\tat org.testng.Assert.assertTrue(Assert.java:54)\r\n\tat pageObjects.CreateAccountPage.verifyCreateAnAccountPage(CreateAccountPage.java:66)\r\n\tat stepDefinitions.CreateAccountSteps.i_should_see_create_an_account_form_page(CreateAccountSteps.java:60)\r\n\tat ✽.I should see Create an Account form page(file:src/test/resources/features/CreateAccount.feature:11)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I fill all the required details and submit it",
+      "time" : {
+        "start" : 1624299991641,
+        "stop" : 1624299991643,
+        "duration" : 2
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f4eb86fa7aa1204d",
+        "name" : "Data table",
+        "source" : "f4eb86fa7aa1204d.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 127
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Then  I should see My Account page",
+      "time" : {
+        "start" : 1624299991644,
+        "stop" : 1624299991645,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I should see that my correct name is displayed as \"Anupam Singh\"",
+      "time" : {
+        "start" : 1624299991646,
+        "stop" : 1624299991646,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I click on Sign out button",
+      "time" : {
+        "start" : 1624299991647,
+        "stop" : 1624299991647,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I should see Authentication Page",
+      "time" : {
+        "start" : 1624299991648,
+        "stop" : 1624299991648,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I should see Already Registered segment",
+      "time" : {
+        "start" : 1624299991648,
+        "stop" : 1624299991649,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I enter my registered email address and password",
+      "time" : {
+        "start" : 1624299991649,
+        "stop" : 1624299991650,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I click on Sign In button",
+      "time" : {
+        "start" : 1624299991650,
+        "stop" : 1624299991650,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I should see My Account page",
+      "time" : {
+        "start" : 1624299991651,
+        "stop" : 1624299991651,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I should see that my correct name is displayed as \"Anupam Singh\"",
+      "time" : {
+        "start" : 1624299991652,
+        "stop" : 1624299991653,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299966568,
+      "stop" : 1624299966570,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299981018,
+      "stop" : 1624299981019,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299981082,
+      "stop" : 1624299981082,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299981134,
+      "stop" : 1624299981134,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299981326,
+      "stop" : 1624299981327,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299981402,
+      "stop" : 1624299981402,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299991473,
+      "stop" : 1624299991641,
+      "duration" : 168
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "69201f0c848087e",
+      "name" : "Screenshot",
+      "source" : "69201f0c848087e.png",
+      "type" : "image/png",
+      "size" : 66610
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299991643,
+      "stop" : 1624299991644,
+      "duration" : 1
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299991645,
+      "stop" : 1624299991645,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299991646,
+      "stop" : 1624299991646,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299991647,
+      "stop" : 1624299991647,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299991648,
+      "stop" : 1624299991648,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299991649,
+      "stop" : 1624299991649,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299991650,
+      "stop" : 1624299991650,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299991651,
+      "stop" : 1624299991651,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299991652,
+      "stop" : 1624299991652,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299991653,
+      "stop" : 1624299991653,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.closeBrowser(Scenario)",
+    "time" : {
+      "start" : 1624299991654,
+      "stop" : 1624299991654,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "BMT-LAP-71"
+  }, {
+    "name" : "thread",
+    "value" : "3692@BMT-LAP-71.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As a new user I should be able to create a new account and carry out shopping activity"
+  }, {
+    "name" : "story",
+    "value" : "As a new user I should be able to create a new account, logout from app then login again"
+  }, {
+    "name" : "suite",
+    "value" : "As a new user I should be able to create a new account and carry out shopping activity"
+  }, {
+    "name" : "testClass",
+    "value" : "As a new user I should be able to create a new account, logout from app then login again"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/CreateAccount.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.CreateAccount_feature.As a new user I should be able to create a new account and carry out shopping activity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec76f5caa326224a.json",
+  "parameterValues" : [ ]
+}

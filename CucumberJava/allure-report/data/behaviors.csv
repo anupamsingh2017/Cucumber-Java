@@ -1,0 +1,4 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","As a new user I should be able to create a new account and place an order","As a user I should be able to add a product to cart and proceed to make payment","0","0","1","0","0"
+"","As a new user I should be able to create a new account and carry out shopping activity","As a new user I should be able to create a new account, logout from app then login again","1","0","0","0","0"
+"","As a new user I should be able to create a new account and place an order","As a new user I should be able to create a new account, logout from app then login again","0","0","1","0","0"

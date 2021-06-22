@@ -1,0 +1,652 @@
+{
+  "uid" : "85496f81f583853e",
+  "name" : "As a new user I should be able to create a new account, logout from app then login again",
+  "fullName" : "As a new user I should be able to create a new account and carry out shopping activity: As a new user I should be able to create a new account, logout from app then login again",
+  "historyId" : "d9d64644ef380b1a3adc1b0b633ca152",
+  "time" : {
+    "start" : 1624299656075,
+    "stop" : 1624299707025,
+    "duration" : 50950
+  },
+  "status" : "broken",
+  "statusMessage" : "Cannot locate option with value: Connecticut\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'BMT-LAP-71', ip: '192.168.29.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: driver.version: unknown",
+  "statusTrace" : "org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Connecticut\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'BMT-LAP-71', ip: '192.168.29.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)\r\n\tat org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)\r\n\tat core.DriverHelper.selectFromDropdownList(DriverHelper.java:88)\r\n\tat pageObjects.CreateAccountPage.fillPersonalInformation(CreateAccountPage.java:107)\r\n\tat stepDefinitions.CreateAccountSteps.i_fill_all_the_required_details_and_submit_it(CreateAccountSteps.java:67)\r\n\tat ✽.I fill all the required details and submit it(file:src/test/resources/features/CreateAccount.feature:12)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "AppHooks.intialize()",
+    "time" : {
+      "start" : 1624299656081,
+      "stop" : 1624299656090,
+      "duration" : 9
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.launchBrowser()",
+    "time" : {
+      "start" : 1624299656091,
+      "stop" : 1624299658550,
+      "duration" : 2459
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot locate option with value: Connecticut\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'BMT-LAP-71', ip: '192.168.29.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: driver.version: unknown",
+    "statusTrace" : "org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Connecticut\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'BMT-LAP-71', ip: '192.168.29.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)\r\n\tat org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)\r\n\tat core.DriverHelper.selectFromDropdownList(DriverHelper.java:88)\r\n\tat pageObjects.CreateAccountPage.fillPersonalInformation(CreateAccountPage.java:107)\r\n\tat stepDefinitions.CreateAccountSteps.i_fill_all_the_required_details_and_submit_it(CreateAccountSteps.java:67)\r\n\tat ✽.I fill all the required details and submit it(file:src/test/resources/features/CreateAccount.feature:12)\r\n",
+    "steps" : [ {
+      "name" : "Given  I go to Sign In page",
+      "time" : {
+        "start" : 1624299658552,
+        "stop" : 1624299673526,
+        "duration" : 14974
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I click on Sign In button and wait for Authentication page to load",
+      "time" : {
+        "start" : 1624299673529,
+        "stop" : 1624299687317,
+        "duration" : 13788
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I should see Authentication Page",
+      "time" : {
+        "start" : 1624299687319,
+        "stop" : 1624299687374,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I should see Create an Account segment",
+      "time" : {
+        "start" : 1624299687376,
+        "stop" : 1624299687432,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I enter my email address",
+      "time" : {
+        "start" : 1624299687433,
+        "stop" : 1624299687636,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I click on Create an Account button",
+      "time" : {
+        "start" : 1624299687637,
+        "stop" : 1624299687714,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I should see Create an Account form page",
+      "time" : {
+        "start" : 1624299687716,
+        "stop" : 1624299695406,
+        "duration" : 7690
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I fill all the required details and submit it",
+      "time" : {
+        "start" : 1624299695407,
+        "stop" : 1624299706838,
+        "duration" : 11431
+      },
+      "status" : "broken",
+      "statusMessage" : "Cannot locate option with value: Connecticut\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'BMT-LAP-71', ip: '192.168.29.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: driver.version: unknown",
+      "statusTrace" : "org.openqa.selenium.NoSuchElementException: Cannot locate option with value: Connecticut\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'BMT-LAP-71', ip: '192.168.29.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: driver.version: unknown\r\n\tat org.openqa.selenium.support.ui.Select.findOptionsByValue(Select.java:283)\r\n\tat org.openqa.selenium.support.ui.Select.selectByValue(Select.java:186)\r\n\tat core.DriverHelper.selectFromDropdownList(DriverHelper.java:88)\r\n\tat pageObjects.CreateAccountPage.fillPersonalInformation(CreateAccountPage.java:107)\r\n\tat stepDefinitions.CreateAccountSteps.i_fill_all_the_required_details_and_submit_it(CreateAccountSteps.java:67)\r\n\tat ✽.I fill all the required details and submit it(file:src/test/resources/features/CreateAccount.feature:12)\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a3c936175872d424",
+        "name" : "Data table",
+        "source" : "a3c936175872d424.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 127
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Then  I should see My Account page",
+      "time" : {
+        "start" : 1624299707014,
+        "stop" : 1624299707015,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I should see that my correct name is displayed as \"Anupam Singh\"",
+      "time" : {
+        "start" : 1624299707016,
+        "stop" : 1624299707016,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I click on Sign out button",
+      "time" : {
+        "start" : 1624299707017,
+        "stop" : 1624299707017,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I should see Authentication Page",
+      "time" : {
+        "start" : 1624299707018,
+        "stop" : 1624299707018,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I should see Already Registered segment",
+      "time" : {
+        "start" : 1624299707019,
+        "stop" : 1624299707019,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I enter my registered email address and password",
+      "time" : {
+        "start" : 1624299707020,
+        "stop" : 1624299707020,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I click on Sign In button",
+      "time" : {
+        "start" : 1624299707021,
+        "stop" : 1624299707021,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I should see My Account page",
+      "time" : {
+        "start" : 1624299707022,
+        "stop" : 1624299707022,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I should see that my correct name is displayed as \"Anupam Singh\"",
+      "time" : {
+        "start" : 1624299707023,
+        "stop" : 1624299707023,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299673527,
+      "stop" : 1624299673528,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299687318,
+      "stop" : 1624299687318,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299687375,
+      "stop" : 1624299687376,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299687433,
+      "stop" : 1624299687433,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299687637,
+      "stop" : 1624299687637,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299687715,
+      "stop" : 1624299687715,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299695406,
+      "stop" : 1624299695407,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299706838,
+      "stop" : 1624299707014,
+      "duration" : 176
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b41da2a5effc5400",
+      "name" : "Screenshot",
+      "source" : "b41da2a5effc5400.png",
+      "type" : "image/png",
+      "size" : 46126
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299707015,
+      "stop" : 1624299707016,
+      "duration" : 1
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299707017,
+      "stop" : 1624299707017,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299707018,
+      "stop" : 1624299707018,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299707019,
+      "stop" : 1624299707019,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299707020,
+      "stop" : 1624299707020,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299707020,
+      "stop" : 1624299707021,
+      "duration" : 1
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299707021,
+      "stop" : 1624299707021,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299707022,
+      "stop" : 1624299707022,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624299707023,
+      "stop" : 1624299707023,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.closeBrowser(Scenario)",
+    "time" : {
+      "start" : 1624299707023,
+      "stop" : 1624299707024,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "BMT-LAP-71"
+  }, {
+    "name" : "thread",
+    "value" : "2104@BMT-LAP-71.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As a new user I should be able to create a new account and carry out shopping activity"
+  }, {
+    "name" : "story",
+    "value" : "As a new user I should be able to create a new account, logout from app then login again"
+  }, {
+    "name" : "suite",
+    "value" : "As a new user I should be able to create a new account and carry out shopping activity"
+  }, {
+    "name" : "testClass",
+    "value" : "As a new user I should be able to create a new account, logout from app then login again"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/CreateAccount.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.CreateAccount_feature.As a new user I should be able to create a new account and carry out shopping activity"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85496f81f583853e.json",
+  "parameterValues" : [ ]
+}

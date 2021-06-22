@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-21T17:53:08Z" name="Suite" finished-at="2021-06-21T17:54:02Z" duration-ms="53121">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@5fbdfdcf]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-06-21T17:53:08Z" name="Test" finished-at="2021-06-21T17:54:02Z" duration-ms="53121">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.TestRunner@5fbdfdcf]" started-at="2021-06-21T17:53:08Z" name="setUpClass" finished-at="2021-06-21T17:53:09Z" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@5fbdfdcf]" started-at="2021-06-21T17:53:09Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-21T17:54:02Z" duration-ms="52673" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a new user I should be able to create a new account, logout from app then login again"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a new user I should be able to create a new account and carry out shopping activity"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (3ceaf34ccbf0ae62afe340db6d678449)] -> id: days] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BMT-LAP-71', ip: '192.168.29.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\ANUPAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ceaf34ccbf0ae62afe340db6d678449]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on WINDOWS (3ceaf34ccbf0ae62afe340db6d678449)] -> id: days] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BMT-LAP-71', ip: '192.168.29.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\ANUPAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55018}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3ceaf34ccbf0ae62afe340db6d678449
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at core.DriverHelper.waitForElementToBePresent(DriverHelper.java:76)
+at core.DriverHelper.selectFromDropdownList(DriverHelper.java:86)
+at pageObjects.CreateAccountPage.fillPersonalInformation(CreateAccountPage.java:96)
+at stepDefinitions.CreateAccountSteps.i_fill_all_the_required_details_and_submit_it(CreateAccountSteps.java:67)
+at ✽.I fill all the required details and submit it(file:src/test/resources/features/CreateAccount.feature:12)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@5fbdfdcf]" started-at="2021-06-21T17:54:02Z" name="tearDownClass" finished-at="2021-06-21T17:54:02Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

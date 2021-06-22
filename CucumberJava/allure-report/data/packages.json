@@ -1,0 +1,56 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "src.test.resources.features",
+    "children" : [ {
+      "name" : "CreateAccount_feature.As a new user I should be able to create a new account and carry out shopping activity",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "d9215485b22c81cd",
+        "parentUid" : "2b6eba56eb2058f8531044ef9b2b5868",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300478825,
+          "stop" : 1624300483905,
+          "duration" : 5080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "CreateAccount_feature.As a new user I should be able to create a new account and carry out shopping activity"
+    }, {
+      "name" : "PlaceOrder_feature.As a new user I should be able to create a new account and place an order",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "db228cd0f661af71",
+        "parentUid" : "1eed308f3e5ce1879411d02731b3ff9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624393818462,
+          "stop" : 1624393848198,
+          "duration" : 29736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "7bdb9cc09e1f5c2e",
+        "parentUid" : "1eed308f3e5ce1879411d02731b3ff9e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624393848306,
+          "stop" : 1624393894201,
+          "duration" : 45895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "PlaceOrder_feature.As a new user I should be able to create a new account and place an order"
+    } ],
+    "uid" : "src.test.resources.features"
+  } ],
+  "name" : "packages"
+}

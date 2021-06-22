@@ -1,0 +1,900 @@
+{
+  "uid" : "3677d40f9009e01e",
+  "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+  "fullName" : "As a new user I should be able to create a new account and place an order: As a user I should be able to add a product to cart and proceed to make payment",
+  "historyId" : "7f129a4b9df6f6e2eb20cb7d431066f",
+  "time" : {
+    "start" : 1624393093104,
+    "stop" : 1624393140260,
+    "duration" : 47156
+  },
+  "status" : "broken",
+  "statusMessage" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (0283012046e31289fa4967a8c1067bc0)] -> id: cgv] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'BMT-LAP-71', ip: '192.168.29.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\ANUPAM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0283012046e31289fa4967a8c1067bc0",
+  "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (0283012046e31289fa4967a8c1067bc0)] -> id: cgv] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'BMT-LAP-71', ip: '192.168.29.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\ANUPAM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0283012046e31289fa4967a8c1067bc0\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat core.DriverHelper.waitForElementToBeClickable(DriverHelper.java:81)\r\n\tat core.DriverHelper.click(DriverHelper.java:42)\r\n\tat pageObjects.POShippingPage.selectTermsAndConditions(POShippingPage.java:30)\r\n\tat stepDefinitions.PlaceOrderSteps.i_agree_to_terms_and_conditions_and_proceed_to_checkout(PlaceOrderSteps.java:207)\r\n\tat ✽.I agree to Terms and Conditions and Proceed to checkout(file:src/test/resources/features/PlaceOrder.feature:54)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "AppHooks.intialize()",
+    "time" : {
+      "start" : 1624393093108,
+      "stop" : 1624393093114,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.launchBrowser()",
+    "time" : {
+      "start" : 1624393093115,
+      "stop" : 1624393095389,
+      "duration" : 2274
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (0283012046e31289fa4967a8c1067bc0)] -> id: cgv] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'BMT-LAP-71', ip: '192.168.29.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\ANUPAM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0283012046e31289fa4967a8c1067bc0",
+    "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (0283012046e31289fa4967a8c1067bc0)] -> id: cgv] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'BMT-LAP-71', ip: '192.168.29.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\ANUPAM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0283012046e31289fa4967a8c1067bc0\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat core.DriverHelper.waitForElementToBeClickable(DriverHelper.java:81)\r\n\tat core.DriverHelper.click(DriverHelper.java:42)\r\n\tat pageObjects.POShippingPage.selectTermsAndConditions(POShippingPage.java:30)\r\n\tat stepDefinitions.PlaceOrderSteps.i_agree_to_terms_and_conditions_and_proceed_to_checkout(PlaceOrderSteps.java:207)\r\n\tat ✽.I agree to Terms and Conditions and Proceed to checkout(file:src/test/resources/features/PlaceOrder.feature:54)\r\n",
+    "steps" : [ {
+      "name" : "Given  I go to Sign In page",
+      "time" : {
+        "start" : 1624393095393,
+        "stop" : 1624393106325,
+        "duration" : 10932
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I click on Sign In button and wait for Authentication page to load",
+      "time" : {
+        "start" : 1624393106329,
+        "stop" : 1624393109254,
+        "duration" : 2925
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I should see Authentication Page",
+      "time" : {
+        "start" : 1624393109256,
+        "stop" : 1624393109314,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I should see Already Registered segment",
+      "time" : {
+        "start" : 1624393109318,
+        "stop" : 1624393109368,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I enter my registered email address and password",
+      "time" : {
+        "start" : 1624393109369,
+        "stop" : 1624393109865,
+        "duration" : 496
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I click on Sign In button",
+      "time" : {
+        "start" : 1624393109867,
+        "stop" : 1624393112487,
+        "duration" : 2620
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I should see My Account page",
+      "time" : {
+        "start" : 1624393112488,
+        "stop" : 1624393112548,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I should see that my correct name is displayed as \"Anupam Singh\"",
+      "time" : {
+        "start" : 1624393112549,
+        "stop" : 1624393112579,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I search the product \"Faded Short Sleeve T-shirts\" in search bar",
+      "time" : {
+        "start" : 1624393112579,
+        "stop" : 1624393115406,
+        "duration" : 2827
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I should see the Product Listing page",
+      "time" : {
+        "start" : 1624393115407,
+        "stop" : 1624393115468,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I should see the searched product \"Faded Short Sleeve T-shirts\"",
+      "time" : {
+        "start" : 1624393115469,
+        "stop" : 1624393115515,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I should change the view to \"list\" view",
+      "time" : {
+        "start" : 1624393115517,
+        "stop" : 1624393115639,
+        "duration" : 122
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Given  I verify that the product \"Faded Short Sleeve T-shirts\" is in stock",
+      "time" : {
+        "start" : 1624393115640,
+        "stop" : 1624393115679,
+        "duration" : 39
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "When  I add the product to cart with given specifications and Proceed to checkout",
+      "time" : {
+        "start" : 1624393115680,
+        "stop" : 1624393123938,
+        "duration" : 8258
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1a2ff918defa2440",
+        "name" : "Data table",
+        "source" : "1a2ff918defa2440.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 29
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Then  I should see the Product Summary page",
+      "time" : {
+        "start" : 1624393123939,
+        "stop" : 1624393123976,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I verify all the product details and Proceed to checkout",
+      "time" : {
+        "start" : 1624393123977,
+        "stop" : 1624393126429,
+        "duration" : 2452
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e5d003b932666ec",
+        "name" : "Data table",
+        "source" : "1e5d003b932666ec.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 111
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Then  I should see PO Address page",
+      "time" : {
+        "start" : 1624393126435,
+        "stop" : 1624393126503,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I verify my address details and Proceed to checkout",
+      "time" : {
+        "start" : 1624393126505,
+        "stop" : 1624393129780,
+        "duration" : 3275
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "22acd0dfafdeef78",
+        "name" : "Data table",
+        "source" : "22acd0dfafdeef78.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 174
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "Then  I should see PO Shipping page",
+      "time" : {
+        "start" : 1624393129781,
+        "stop" : 1624393129838,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I agree to Terms and Conditions and Proceed to checkout",
+      "time" : {
+        "start" : 1624393129839,
+        "stop" : 1624393140009,
+        "duration" : 10170
+      },
+      "status" : "broken",
+      "statusMessage" : "Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (0283012046e31289fa4967a8c1067bc0)] -> id: cgv] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'BMT-LAP-71', ip: '192.168.29.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\ANUPAM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0283012046e31289fa4967a8c1067bc0",
+      "statusTrace" : "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (0283012046e31289fa4967a8c1067bc0)] -> id: cgv] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'BMT-LAP-71', ip: '192.168.29.142', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\\Users\\ANUPAM~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:56298}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 0283012046e31289fa4967a8c1067bc0\r\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\r\n\tat core.DriverHelper.waitForElementToBeClickable(DriverHelper.java:81)\r\n\tat core.DriverHelper.click(DriverHelper.java:42)\r\n\tat pageObjects.POShippingPage.selectTermsAndConditions(POShippingPage.java:30)\r\n\tat stepDefinitions.PlaceOrderSteps.i_agree_to_terms_and_conditions_and_proceed_to_checkout(PlaceOrderSteps.java:207)\r\n\tat ✽.I agree to Terms and Conditions and Proceed to checkout(file:src/test/resources/features/PlaceOrder.feature:54)\r\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I should see Payments page",
+      "time" : {
+        "start" : 1624393140254,
+        "stop" : 1624393140254,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I verify various payment methods",
+      "time" : {
+        "start" : 1624393140255,
+        "stop" : 1624393140255,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I choose \"Pay by bank wire\" payment method",
+      "time" : {
+        "start" : 1624393140256,
+        "stop" : 1624393140256,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "And  I confirm my order after verifying total amount as \"$18.51\"",
+      "time" : {
+        "start" : 1624393140257,
+        "stop" : 1624393140257,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Then  I should see that my order is complete",
+      "time" : {
+        "start" : 1624393140258,
+        "stop" : 1624393140258,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 25,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393106326,
+      "stop" : 1624393106328,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393109255,
+      "stop" : 1624393109255,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393109317,
+      "stop" : 1624393109317,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393109369,
+      "stop" : 1624393109369,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393109866,
+      "stop" : 1624393109866,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393112487,
+      "stop" : 1624393112487,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393112548,
+      "stop" : 1624393112548,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393112579,
+      "stop" : 1624393112579,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393115406,
+      "stop" : 1624393115406,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393115468,
+      "stop" : 1624393115468,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393115516,
+      "stop" : 1624393115516,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393115639,
+      "stop" : 1624393115640,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393115679,
+      "stop" : 1624393115679,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393123939,
+      "stop" : 1624393123939,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393123976,
+      "stop" : 1624393123976,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393126430,
+      "stop" : 1624393126434,
+      "duration" : 4
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393126504,
+      "stop" : 1624393126504,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393129780,
+      "stop" : 1624393129781,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393129838,
+      "stop" : 1624393129838,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393140009,
+      "stop" : 1624393140254,
+      "duration" : 245
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "173f812b1f9187cc",
+      "name" : "Screenshot",
+      "source" : "173f812b1f9187cc.png",
+      "type" : "image/png",
+      "size" : 197124
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393140254,
+      "stop" : 1624393140255,
+      "duration" : 1
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393140256,
+      "stop" : 1624393140256,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393140256,
+      "stop" : 1624393140257,
+      "duration" : 1
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393140257,
+      "stop" : 1624393140258,
+      "duration" : 1
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.takeScreenShotOnFailure(Scenario)",
+    "time" : {
+      "start" : 1624393140258,
+      "stop" : 1624393140258,
+      "duration" : 0
+    },
+    "status" : "skipped",
+    "statusMessage" : "AfterStep is failed.",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "AppHooks.closeBrowser(Scenario)",
+    "time" : {
+      "start" : 1624393140258,
+      "stop" : 1624393140259,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "BMT-LAP-71"
+  }, {
+    "name" : "thread",
+    "value" : "10224@BMT-LAP-71.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "As a new user I should be able to create a new account and place an order"
+  }, {
+    "name" : "story",
+    "value" : "As a user I should be able to add a product to cart and proceed to make payment"
+  }, {
+    "name" : "suite",
+    "value" : "As a new user I should be able to create a new account and place an order"
+  }, {
+    "name" : "testClass",
+    "value" : "As a user I should be able to add a product to cart and proceed to make payment"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:src/test/resources/features/PlaceOrder.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.PlaceOrder_feature.As a new user I should be able to create a new account and place an order"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3677d40f9009e01e.json",
+  "parameterValues" : [ ]
+}

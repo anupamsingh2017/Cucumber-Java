@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-22T20:30:17Z" name="Suite" finished-at="2021-06-22T20:31:34Z" duration-ms="76553">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@3e84448c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-06-22T20:30:17Z" name="Test" finished-at="2021-06-22T20:31:34Z" duration-ms="76553">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner.TestRunner@3e84448c]" started-at="2021-06-22T20:30:17Z" name="setUpClass" finished-at="2021-06-22T20:30:18Z" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@3e84448c]" started-at="2021-06-22T20:30:18Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-22T20:30:48Z" duration-ms="30181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a new user I should be able to create a new account, logout from app then login again"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a new user I should be able to create a new account and place an order"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@3e84448c]" started-at="2021-06-22T20:30:48Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-06-22T20:31:34Z" duration-ms="45914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a user I should be able to add a product to cart and proceed to make payment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["As a new user I should be able to create a new account and place an order"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestRunner@3e84448c]" started-at="2021-06-22T20:31:34Z" name="tearDownClass" finished-at="2021-06-22T20:31:34Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

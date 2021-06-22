@@ -1,0 +1,64 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "As a new user I should be able to create a new account and carry out shopping activity",
+    "children" : [ {
+      "name" : "As a new user I should be able to create a new account, logout from app then login again",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "d9215485b22c81cd",
+        "parentUid" : "1b76bcf7ae39c62cb9c6a27fbf3b1972",
+        "status" : "failed",
+        "time" : {
+          "start" : 1624300478825,
+          "stop" : 1624300483905,
+          "duration" : 5080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b76bcf7ae39c62cb9c6a27fbf3b1972"
+    } ],
+    "uid" : "57c9df315f606b05a657a7dc164b8b1c"
+  }, {
+    "name" : "As a new user I should be able to create a new account and place an order",
+    "children" : [ {
+      "name" : "As a new user I should be able to create a new account, logout from app then login again",
+      "children" : [ {
+        "name" : "As a new user I should be able to create a new account, logout from app then login again",
+        "uid" : "db228cd0f661af71",
+        "parentUid" : "45bbf09995f127663b17ace7676d9fb5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624393818462,
+          "stop" : 1624393848198,
+          "duration" : 29736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "45bbf09995f127663b17ace7676d9fb5"
+    }, {
+      "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+      "children" : [ {
+        "name" : "As a user I should be able to add a product to cart and proceed to make payment",
+        "uid" : "7bdb9cc09e1f5c2e",
+        "parentUid" : "b19d94c454441732a5d793b07727e914",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624393848306,
+          "stop" : 1624393894201,
+          "duration" : 45895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b19d94c454441732a5d793b07727e914"
+    } ],
+    "uid" : "192b08a6af3ed9b0e6566c7bff3bfffb"
+  } ],
+  "name" : "behaviors"
+}
